@@ -1,0 +1,17 @@
+/*Zona De generalidades */
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+html{
+    font-size: 62.5px;
+}
+
+/*Las anclas no tienen subrayado */
+a{
+    text-decoration: none;
+}
