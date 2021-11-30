@@ -1,5 +1,5 @@
 /*Zona De generalidades */
-* {
+/* * {
 
     box-sizing: border-box;
     padding: 0;
@@ -9,78 +9,78 @@
 
 html{
     font-size: 62.5%;
-}
+} */
 
 /*Las anclas no tienen subrayado */
-a{
+/* a{
     text-decoration: none;
-}
+} */
 
 /*La cabecera contendra 
     - Un logo 
     - El nav
     - Un titulo
 */
-.cabecera {
+/* .cabecera {
     background-color: #6a040f;
     display: flex;
     justify-content: center;
-}
+} */
 
 /*
     Titulo principal de la pagina
 */
-.titulo-cabecera {
+/* .titulo-cabecera {
     color: white;
     text-align:  center;
     font-size: 0.7rem;
-}
+} */
 
 /*
     Navegador contiene 3 anclas 
 */
-nav{
+/* nav{
     display: none;
-}
+} */
 
 /*
     Para cualquier imagen que sera insertada en la pagina
 */
-main section figure {
+/* main section figure {
     display: flex;
     justify-content: center;
     padding: 15px;
-}
+} */
 
 /*
     Todas las imagenes tendran las mismas dimensiones y caracteristicas
 */
-.imagen-main{
+/* .imagen-main{
 
     height: 350px;
     width: 100%;
     border-radius: 10px;
-}
+} */
 /*
     No se muestran en mobile
 */
-.cabecera-info-main{
+/* .cabecera-info-main{
 
    display: none;
 
-}
+} */
 /*
     No se muestran en mobile
 */
-.texto-info-main{
+/* .texto-info-main{
 
     display: none;
 
-}
+} */
 /*
     Mision y Vision Estilos
 */
-.content-mision, .content-vision{
+/* .content-mision, .content-vision{
     display: flex;
     flex-direction: column;
     font-size: 0.5rem;
@@ -102,23 +102,44 @@ main section figure {
 
 section div h4, .cuerpo-vision, .cuerpo-mision {
     padding: 20px;
-}
+} */
 
 /*
 
     Representa la paleta de colores que se usaran en esta pagina
 
 */
-.paleta{
+/* .paleta{
     color:#6a040f;
     color:#9d0208;
     color:#faa307;
     color:#dc2f02;
-}
+} */
 
 /*
     footer dividido en 2 secciones una redes otra creditos
 */
-footer{
+/* footer{
     display: flex;
+} */
+
+html {
+    font-size: 62.5%;
 }
+
+.estilos-agregados-nav{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: black;
+    padding: 0px;
+}
+
+.contenido-main{
+    background: url(../images/san_alfonso.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: top;
+    background-attachment: contain;
+    position:relative;
+}
+
