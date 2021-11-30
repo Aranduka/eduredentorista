@@ -50,7 +50,6 @@ nav{
 main section figure {
     display: flex;
     justify-content: center;
-    padding: 15px;
 }
 
 /*
@@ -60,7 +59,6 @@ main section figure {
 
     height: 350px;
     width: 100%;
-    border-radius: 10px;
 }
 /*
     No se muestran en mobile
@@ -79,33 +77,159 @@ main section figure {
 
 }
 /*
-    Mision y Vision Estilos
+   Nosotros, Mision y Vision Estilos
 */
-.content-mision, .content-vision{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.5rem;
-    margin-top: 10px;
-    padding: 15px;
-}
-.content-mision-titulo, .content-vision-titulo{
+
+.mision-vision-container{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
     background-color: #6a040f;
-    color: white;
+}
+
+.nosotros-titulo-container{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
     text-align: center;
-    border-radius: 10px;
 }
 
-.content-vision-cuerpo, .content-mision-cuerpo{
-    text-align: left;
-    font-size: 1.3rem;
+.nosotros-titulo{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: #faa307;
 }
 
-section div h4, .cuerpo-vision, .cuerpo-mision {
-    padding: 20px;
+.card-info{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    border: solid 0.1rem #faa307;
+}
+
+.titulo-card{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #dda846;
+}
+
+.body-card{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #dda846;
 }
 
 /*
+    Estilos de las instituciones
 
+*/
+
+.instituciones-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.titulo-instituciones{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.titulo-instituciones h2{
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: #000;
+}
+
+.titulo-instituciones p{
+    padding-top: 2px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+.instituciones-slider{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.institucion-card-container{
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 20px 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.titulo-institucion{
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: calc(50% - 60px);
+    top: -20px;
+    background-color: #6a040f;
+    border-radius: 8px;
+    color: #dda846;
+    font-size: 1.2rem;
+    padding: 6px;
+    text-align: center;
+    
+}
+
+.titulo-institucion span{ 
+    position: absolute;
+    top: 20px;
+    left: 40px;   
+}
+.titulo-institucion span a{ 
+   text-decoration: none;  
+   color: #dda846;
+}
+
+.escudo{
+   
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+   
+;
+
+}
+/*
     Representa la paleta de colores que se usaran en esta pagina
 
 */
