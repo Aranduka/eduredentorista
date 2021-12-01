@@ -4,22 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles_mobile.css">
     <link rel="stylesheet" href="styles/style_medium.css" media="screen and (min-width: 800)">
     <title>EduRedentoristaPJC</title>
 </head>
 <body>
     <header class="cabecera">
-        <figure>
+        <!-- <figure class="logo">
             <img src="#" alt="">
-        </figure>
-        <h1 class="titulo-cabecera">Educacion Redentorista</h1>
+        </figure> -->
         <nav class="navegador-cabecera">
-            <ul class="lista-navegador">
-                <li class="item-lista-navegador"><a href="#nosotros">Nosotros</a></li>
-                <li class="item-lista-navegador"><a href="#nuestras_instituciones">Nuestras Instituciones</a></li>
-                <li class="item-lista-navegador"><a href="#contactos">Contactos</a></li>
-            </ul>
+            <h1 class="titulo-cabecera">Educacion Redentorista</h1>
+            <div class="toggle-button">
+                <span class="bar">
+                    
+                </span>
+                <span class="bar">
+
+                </span>
+                <span class="bar">
+
+                </span>
+            </div>
+            <div class="lista-container">
+                <ul>
+                    <li class="item-lista-navegador"><a href="#nosotros">Nosotros</a></li>
+                    <li class="item-lista-navegador"><a href="#institucion">Instituciones</a></li>
+                    <li class="item-lista-navegador"><a href="#contactos">Contactos</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -69,47 +83,66 @@
         </div>
 
     <!--Contendra las instituciones educativas-->
-    </article id="nuestras_instituciones" class="instituciones-container">
-
+    </article >
+    <article id="institucion" class="instituciones-container">
         <section class="titulo-instituciones">
-            <h2>Nuestras Intituciones</h2>
+            <h2>Nuestras Instituciones</h2>
             <p>Ciudad: Pedro Juan Caballero - Paraguay</p>
         </section>
         <section class="instituciones-slider">
             <div class="institucion-card-container">
                 <p class="titulo-institucion"><span><a href="/public/nsps.html">Ver más...</a></span></p>
-                    <figure class="escudo">
-                        <img  src="/images/EscuelaPerpetuoSocorro/EscudoNSPS.jpg" alt="Escudo Escuela Nuestra Señora del Perpetuo Socorro" width="100%">
-                    </figure>
+                <figure class="escudo">
+                    <img  src="/images/EscuelaPerpetuoSocorro/EscudoNSPS.jpg" alt="Escudo Escuela Nuestra Señora del Perpetuo Socorro" width="100%">
+                </figure>
+                <div class="leyenda-institucion">
+                    <p>Escuela Parroquial Nuestra Señora del Perpetuo Socorro</p>
+                </div>
             </div>
-        </section>
-        <section class="instituciones-slider">
             <div class="institucion-card-container">
                 <p class="titulo-institucion"><span><a href="/public/rosenstiel.html">Ver más...</a> </span></p>
-                    <figure class="escudo">
-                        <img  src="/images/ColegioRosenstiel/Escudo Rosenstiel.jpg" alt="Escudo Colegio Rosenstiel" width="100%">
-                    </figure>
+                <figure class="escudo">
+                    <img  src="/images/ColegioRosenstiel/Escudo Rosenstiel.jpg" alt="Escudo Colegio Rosenstiel" width="100%">
+
+                </figure>
+                <div class="leyenda-institucion">
+                    <p>Colegio Parroquial Rosenstiel</p>
+                </div>
             </div>
         </section>
+    </article>
 
     <!--Contactos-->
-    <article id="contactos">
-
+    <article id="contactos" class="contacto-container">
         <section class="contend-contactos">
-            
+            <form action="#" class="formulario">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" required id="nombre" class="campo-texto-form">
+                <label for="correo">Correo</label>
+                <input type="email required id="correo" class="campo-texto-form">
+                <label for="asunto">Asunto</label>
+                <input type="text" required name="nombre" class="campo-texto-form">
+                <label for="texto">Mensaje</label>
+                <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+            </form>
         </section>
-
     </article>
 
     <footer>
-
         <section class="content-redes">
-
+            <span class="icons-footer">
+                <i class="material-icons"></i><a href="#">Telefono: (0336) 555-555</a>
+            </span><span class="icons-footer">
+                <i class="material-icons"></i><a href="#">Facebook: EjemploFacebook</a>
+            </span><span class="icons-footer">
+                <i class="material-icons"></i><a href="#">Correo: correo@example.com</a>
+            </span>
         </section>
         <section class="content-creditos">
 
         </section>
-
     </footer>
+
+    <script src="/js/funciones.js"></script>
 </body>
 </html>
