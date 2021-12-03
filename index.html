@@ -7,219 +7,58 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles_mobile.css">
-    <link rel="stylesheet" href="styles/style_medium.css" media="screen and (min-width: 800)">
     <title>EduRedentoristaPJC</title>
 </head>
 <body>
    
 
     <header>
+        <!-- Navegador -->
         <nav>
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo"><span class="estilos-agregados-nav">Educacion Redentorista Paraguay</span></a>
-                <!-- Sirve para activar el sidenav -->
-                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul id="mobile-nav" class="right hide-on-med-and-down"> 
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Nuestras instituciones</a></li>
-                    <li><a href="#">Contactos</a></li>
-                </ul>
+            <div class="nav-wrapper red darken-1">
+              <a href="#" class="brand-logo">Educacion Redentorista</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#instituciones">Instituciones</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+              </ul>
             </div>
-        </nav>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Instituciones</a></li>
+            <li><a href="#">Contactos</a></li>
+          </ul>
     </header>
-
-    <!-- Inicio de nav responsive -->
-    <ul id="slide-out" class="sidenav"> 
-        <li><a href="#nosotros">Nosotros</a></li>       
-        <li><a href="#nuestras_instituciones">Nuestras instituciones</a></li>
-        <li><a href="#contactos">Contactos</a></li>
-    </ul>
-    <!-- Fin de nav responsive -->
-
-    <main>
-        <div class="row">
-            <div class="col s12 m6">
-                <div class="contenido-main">
-                 <span class="white-text">Misioneros Redentoristas del Paraguay</span></div>
-            </div>
-            <div id="nosotros" class="col s12 m6">
-                <h3>Quienes Somos</h3>
-                <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit praesentium ut a ullam totam adipisci, accusantium rerum quisquam sunt inventore quasi nisi pariatur qui harum? Laboriosam animi eaque inventore!</p>
+    <!-- main -->
+    <main class="container-main ">
+        <div class="image-contain">
+            <img class="imagen-hero" src="images/san_alfonso.jpg" alt="San Alfonso Maria de Ligorio">
+            <p>Misioneros Redentoristas del Paraguay</p>
+        </div>
+        <div class="aboutus">
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title">Nosotros</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo animi ut odit. Cumque laborum possimus perspiciatis magni molestiae maxime iste ipsum minus reprehenderit nihil, quae, voluptatibus, voluptatem asperiores ea voluptas.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">esto es un link</a>
+                </div>
             </div>
         </div>
     </main>
+    <!-- Nosotros -->
+  
 
-    <!--Seccion mision vision-->
+   
 
-    <article class="row">
-
-        <section id="vision" class="col s12 m6">
-            <div class="card">
-                <span class="card-title">Nuestra Visión</span>
-                <div class="card-content">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat, quia consectetur inventore eos omnis tenetur minima mollitia error expedita vero quo? Pariatur animi quaerat exercitationem ex voluptatibus dolorum odit.</p>
-                </div>
-            </div>
-        </section>
-        <section id="mision" class="col s12 m6">
-            <div class="card">
-                <span class="card-title">Nuestra Mision</span>
-                <div class="card-content">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat, quia consectetur inventore eos omnis tenetur minima mollitia error expedita vero quo? Pariatur animi quaerat exercitationem ex voluptatibus dolorum odit.</p>
-                </div>
-            </div>
-        </section>
-
-    </article>
-
-    <!-- Nuestras Instituciones -->
-
-    <article id="nuestras instituciones">
-
-        <section>
-            <div class="row">
-                <div class="col s12"><h4>Nuestras instituciones</h4></div>
-            </div>
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="responsive-img" src="images/Escuela Perpetuo Socorro/Escudo Escuala Perpetuo Socorro.jpg" alt="Escuela Perpetuo Socorro">
-                        </div>
-                        <div class="card-content"><span class="card-title">Escuela Redentorista Nuestra Señora del Perpetuo Socorro</span><br>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero dignissimos officia facere! Aliquam facere soluta alias, blanditiis accusamus perferendis harum necessitatibus reprehenderit eius a? Distinctio cum aliquam eveniet ipsa.
-                        </div>
-                        <div class="card-action">
-                            <a href="nsps.html">Ver más...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row">
-                <div class="col s12"><h4>Nuestras instituciones</h4></div>
-            </div>
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="responsive-img" src="images/Colegio Rosenstiel/Escudo Rosenstiel.jpg" alt="Colegio Rosenstiel">
-                        </div>
-                        <div class="card-content"><span class="card-title">Colegio Parroquial Rosenstiel</span><br>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero dignissimos officia facere! Aliquam facere soluta alias, blanditiis accusamus perferendis harum necessitatibus reprehenderit eius a? Distinctio cum aliquam eveniet ipsa.
-                        </div>
-                        <div class="card-action">
-                            <a href="rosenstiel.html">Ver más...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </article>
-
-    <article id="contactos">
-        <section>
-            <div class="row">
-                <h4></h4>
-            </div>
-        </section>
-    </article>
-
-    <!-- <header class="cabecera">
-        <figure>
-            <img src="#" alt="">
-        </figure>
-        <h1 class="titulo-cabecera">Educacion Redentorista</h1>
-        <nav class="navegador-cabecera">
-            <ul class="lista-navegador">
-                <li class="item-lista-navegador">Noticias</li>
-                <li class="item-lista-navegador">Nuestras instituciones</li>
-                <li class="item-lista-navegador">Contactos</li>
-            </ul>
-        </nav>
-    </header>
-
-    <main> -->
-        <!--Imagenes de propaganda con corto texto-->
-        <!-- <section class="content-info">
-
-                <figure>
-                    <img class="imagen-main" src="images/Colegio Rosenstiel/Propaganda Rosenstiel 1.png" alt="">
-                </figure> -->
-                <!--Zona de texto-->
-                <!-- <div class="info-main">
-                    <h3 class="cabecera-info-main">Lorem ipsum dolor.</h3>
-                    <p class="texto-info-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid quod commodi libero quibusdam incidunt doloremque ratione veniam odio dicta tempora nesciunt cum nostrum aliquam maxime magnam, a quas illum.</p>
-                </div> -->
-
-        <!-- </section>
-
-    </main> -->
-    <!--Contendra la mision y vision de la pagina-->
-    <!-- <article id="vision-mision">
-
-        <section class="content-mision">
-            <div class="content-mision-titulo">
-                <h4>Nuestra mision</h4>
-            </div>
-            <div class="content-mision-cuerpo">
-                <p class="cuerpo-mision">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, repellat tempore consequuntur voluptate architecto blanditiis ipsa ea placeat commodi odio veniam, dolor corporis consectetur alias eaque. Quam blanditiis omnis dolorem.
-                </p>
-            </div>
-        </section>
-
-        <section class="content-vision">
-            <div class="content-vision-titulo">
-                <h4>Nuestra vision</h4>
-            </div>
-            <div class="content-vision-cuerpo">
-                <p class="cuerpo-vision">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, repellat tempore consequuntur voluptate architecto blanditiis ipsa ea placeat commodi odio veniam, dolor corporis consectetur alias eaque. Quam blanditiis omnis dolorem.
-                </p>
-            </div>
-        </section> -->
-
-    <!--Contendra las instituciones educativas-->
-    <!-- </article id="instituciones">
-
-        <section class="content-nsps">
-            
-        </section>
-        <section class="content-rosenstiel">
-
-        </section> -->
-
-    <!--Contactos-->
-    <!-- <article id="contactos">
-
-        <section class="contend-contactos">
-        
-        </section>
-
-    </article>
-
-    <footer>
-
-        <section class="content-redes">
-
-        </section>
-        <section class="content-creditos">
-
-        </section>
-
-    </footer> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems);
-        });
-
+    <script src="js/funciones.js">
+       
     </script>
 </body>
 </html>
