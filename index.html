@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles_mobile.css">
+    <link rel="stylesheet" href="styles/style_medium.css" media="(min-width: 700px)">
     <title>EduRedentoristaPJC</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
               <ul class="right hide-on-med-and-down">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#instituciones">Instituciones</a></li>
-                <li><a href="#contactos">Contactos</a></li>
+                <li><a href="#contactos" style="margin-right: 100px;">Contactos</a></li>
               </ul>
             </div>
           </nav>
@@ -35,18 +36,21 @@
     <!-- main -->
     <main class="container-main ">
         <div class="image-contain">
-            <img class="imagen-hero" src="images/san_alfonso.jpg" alt="San Alfonso Maria de Ligorio">
+            <img class="imagen-hero" src="images/san_alfonso.jpg" alt="San Alfonso Maria de Ligorio" >
             <p>Misioneros Redentoristas del Paraguay</p>
         </div>
         <div class="aboutus">
             <div class="card">
                 <div class="card-content">
                     <span class="card-title">Nosotros</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo animi ut odit. Cumque laborum possimus perspiciatis magni molestiae maxime iste ipsum minus reprehenderit nihil, quae, voluptatibus, voluptatem asperiores ea voluptas.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo animi ut odit. Cumque laborum possimus perspiciatis magni molestiae maxime iste ipsum minus reprehenderit nihil, quae, voluptatibus, voluptatem asperiores ea voluptas.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore velit in nesciunt quidem qui alias cum? Voluptas asperiores exercitationem culpa? Esse nobis sequi, praesentium sit accusamus soluta? Beatae, quam sit?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sed eum veritatis, et rem veniam asperiores repellat doloremque ullam distinctio illo incidunt, libero obcaecati! Veniam voluptatibus facilis ad laudantium incidunt!
+                    </p>
                 </div>
-                <div class="card-action">
-                    <a href="#">esto es un link</a>
-                </div>
+                <!-- <div class="card-action">
+                    <a href="#">Frase</a>
+                </div> -->
             </div>
         </div>
     </main>
@@ -54,53 +58,112 @@
     
     
 
-    <section class="institucion-container">
-        <div class="instituciones">
-
-            <div>
-                <h3>Nuestras Instituciones</h3>
-            </div>
-
+    <section id="instituciones" class="institucion-container">
+      <div class="instituciones">
+        <div>
+          <h3>Nuestras Instituciones</h3>
+        </div>
+        <div class="escudos">
             <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/Colegio Rosenstiel/Escudo Rosenstiel.jpg">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">
-                      Colegio Parroquial Rosenstiel
-                      <i class="material-icons right">more_vert</i>
-                    </span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Vision<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                  <span class="card-title grey-text text-darken-4">Mision</span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/ColegioRosenstiel/EscudoRosenstiel.jpg">
               </div>
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/Escuela Perpetuo Socorro/Escudo Escuala Perpetuo Socorro.jpg">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">
-                      Escuela Parroquial Nuestra Señora del Perpetuo Socorro
-                      <i class="material-icons right">more_vert</i>
-                    </span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Vision<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                  <span class="card-title grey-text text-darken-4">Mision</span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">
+                  Colegio Parroquial <br> Rosenstiel
+                  <i class="material-icons right">more_vert</i>
+                </span>
+                <p><a href="rosenstiel.html">Ver más...</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Vision<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis deleniti consequuntur neque mollitia laudantium. A similique perspiciatis alias iure reiciendis nihil iusto eos deserunt, repellendus quas, ut asperiores et consequatur?.</p>
+                <span class="card-title grey-text text-darken-4">Mision</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, et similique ipsum, velit labore maxime consectetur laborum ab quidem dicta eum quas dignissimos! Iure porro nam sit quam soluta nihil!</p>
               </div>
             </div>
+            <div style="width: 10%;"></div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/EscuelaPerpetuoSocorro/EscudoEscuelaPerpetuoSocorro.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">
+                  Escuela Parroquial Nuestra Señora del Perpetuo Socorro
+                  <i class="material-icons right">more_vert</i>
+                </span>
+                <p><a href="nsps.html">Ver más...</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Vision<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere eius unde dolorum voluptatum nisi consequuntur praesentium id. Nam corporis officia quae suscipit, ad provident reiciendis magni deleniti eveniet optio quas.</p>
+                <span class="card-title grey-text text-darken-4">Mision</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt porro aut mollitia consequuntur possimus architecto! Sed, harum ab aliquam iusto dolores commodi reiciendis eius repellat esse quisquam dolorem facilis nesciunt.</p>
+              </div>
             </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section id="contactos" class="contactos">
+      <div class="contactos-container">
+        <div>
+          <h3>Formulario de Contacto</h3>  
+        </div>
+        <div class="container-form">
+          <form action="#">
+            <div class="input-field">
+              <input type="text" class="validate" id="nombre">
+              <label for="nombre">Nombre completo</label>
+            </div>
+            <div class="input-field">
+              <input type="email" class="validate" id="email">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <select>
+                <option value="" disabled selected>Selecciona una Intitucion</option>
+                <option value="1">Colegio Rosenstiel</option>
+                <option value="2">Escuela Perpetuo Socorro</option>
+              </select>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="descripcion" class="materialize-textarea"></textarea>
+              <label for="descripcion">Mensaje</label>
+            </div>
+            <div class="button-form">
+              <button class="btn waves-effect waves-light" type="button" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </form>
         </div>
     </section>
 
+
+    <footer class="page-footer red darken-1">
+      <div>
+        <h5 class="white-text">Redes Sociales</h5>
+      </div>
+      <div>
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Facebook Colegio</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Facebook Escuela</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Correo Escuela</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Correo Colegio</a></li>
+        </ul>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2021 William Acosta
+        </div>
+      </div>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/funciones.js">
        
     </script>
