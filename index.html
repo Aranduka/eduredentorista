@@ -1,171 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles_mobile.css">
-    <link rel="stylesheet" href="styles/style_medium.css" media="(min-width: 700px)">
-    <title>EduRedentoristaPJC</title>
-</head>
-<body>
-   
-
+    <title>Educacion Redentorista</title>
+  </head>
+  <body>
+    
     <header>
-        <!-- Navegador -->
-        <nav>
-            <div class="nav-wrapper red darken-1">
-              <a href="#" class="brand-logo">Educacion Redentorista</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#instituciones">Instituciones</a></li>
-                <li><a href="#contactos" style="margin-right: 100px;">Contactos</a></li>
-              </ul>
-            </div>
-          </nav>
-        
-          <ul class="sidenav" id="mobile-demo">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#instituciones">Instituciones</a></li>
-            <li><a href="#contactos">Contactos</a></li>
-          </ul>
+      <nav class="navbar navbar-expand-md navbar-dark nav-fondo" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Educacion Redentorista</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Instituciones</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                  <li><a class="dropdown-item" href="public/rosenstiel.html">Colegio Rosenstiel</a></li>
+                  <li><a class="dropdown-item" href="public/nsps.html">Escuela Perpetuo Socorro</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    <!-- main -->
-    <main class="container-main ">
-        <div class="image-contain">
-            <img class="imagen-hero" src="images/san_alfonso.jpg" alt="San Alfonso Maria de Ligorio" >
-            <p>Misioneros Redentoristas del Paraguay</p>
-        </div>
-        <div class="aboutus">
-            <div class="card">
-                <div class="card-content">
-                    <span class="card-title">Nosotros</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo animi ut odit. Cumque laborum possimus perspiciatis magni molestiae maxime iste ipsum minus reprehenderit nihil, quae, voluptatibus, voluptatem asperiores ea voluptas.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore velit in nesciunt quidem qui alias cum? Voluptas asperiores exercitationem culpa? Esse nobis sequi, praesentium sit accusamus soluta? Beatae, quam sit?
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sed eum veritatis, et rem veniam asperiores repellat doloremque ullam distinctio illo incidunt, libero obcaecati! Veniam voluptatibus facilis ad laudantium incidunt!
-                    </p>
-                </div>
-                <!-- <div class="card-action">
-                    <a href="#">Frase</a>
-                </div> -->
-            </div>
-        </div>
-    </main>
-    <!-- Intituciones -->
-    
-    
+   <main>
+    <div class="px-4 py-5 my-5 text-center">
+      <img class="d-block mx-auto mb-4" src="images/Logoredentorista.png" alt="logo_redentorista" width="300" height="250">
+      <h1 class="display-5 fw-bold">Nosotros</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsum sapiente voluptates laudantium odit architecto quas voluptatum eius minima accusamus enim facere aliquid deserunt, quo eveniet porro reiciendis nihil iure.</p>
+      </div>
+    </div>
+    <div class="container">
 
-    <section id="instituciones" class="institucion-container">
-      <div class="instituciones">
-        <div>
-          <h3>Nuestras Instituciones</h3>
-        </div>
-        <div class="escudos">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/ColegioRosenstiel/EscudoRosenstiel.jpg">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">
-                  Colegio Parroquial <br> Rosenstiel
-                  <i class="material-icons right">more_vert</i>
-                </span>
-                <p><a href="rosenstiel.html">Ver más...</a></p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Vision<i class="material-icons right">close</i></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis deleniti consequuntur neque mollitia laudantium. A similique perspiciatis alias iure reiciendis nihil iusto eos deserunt, repellendus quas, ut asperiores et consequatur?.</p>
-                <span class="card-title grey-text text-darken-4">Mision</span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, et similique ipsum, velit labore maxime consectetur laborum ab quidem dicta eum quas dignissimos! Iure porro nam sit quam soluta nihil!</p>
-              </div>
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Nuestras Instituciones</h1>
+        <p class="fs-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum perferendis harum reprehenderit laudantium ex error exercitationem neque, vitae animi! Eius, ratione magnam et ab assumenda ipsa ex enim aliquam natus?</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Escuela Parroquial Nuestra Señora del Perpetuo Socorro</h4>
             </div>
-            <div style="width: 10%;"></div>
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/EscuelaPerpetuoSocorro/EscudoEscuelaPerpetuoSocorro.jpg">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">
-                  Escuela Parroquial Nuestra Señora del Perpetuo Socorro
-                  <i class="material-icons right">more_vert</i>
-                </span>
-                <p><a href="nsps.html">Ver más...</a></p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Vision<i class="material-icons right">close</i></span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere eius unde dolorum voluptatum nisi consequuntur praesentium id. Nam corporis officia quae suscipit, ad provident reiciendis magni deleniti eveniet optio quas.</p>
-                <span class="card-title grey-text text-darken-4">Mision</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt porro aut mollitia consequuntur possimus architecto! Sed, harum ab aliquam iusto dolores commodi reiciendis eius repellat esse quisquam dolorem facilis nesciunt.</p>
-              </div>
+            <div class="card-body">
+              <img src="images/EscuelaPerpetuoSocorro/EscudoEscuelaPerpetuoSocorro.jpg" alt="Escudo_nsps">
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="public/nsps.html">Ver más...</a></button>
             </div>
           </div>
         </div>
-
-    </section>
-
-    <section id="contactos" class="contactos">
-      <div class="contactos-container">
-        <div>
-          <h3>Formulario de Contacto</h3>  
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Colegio Parroquial Rosenstiel</h4>
+            </div>
+            <div class="card-body">
+              <img src="images/ColegioRosenstiel/EscudoRosenstiel.jpg" alt="Escudo_rosenstiel">
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="public/nsps.html">Ver más...</a></button>
+            </div>
+          </div>
         </div>
-        <div class="container-form">
-          <form action="#">
-            <div class="input-field">
-              <input type="text" class="validate" id="nombre">
-              <label for="nombre">Nombre completo</label>
-            </div>
-            <div class="input-field">
-              <input type="email" class="validate" id="email">
-              <label for="email">Email</label>
-            </div>
-            <div class="input-field">
-              <select>
-                <option value="" disabled selected>Selecciona una Intitucion</option>
-                <option value="1">Colegio Rosenstiel</option>
-                <option value="2">Escuela Perpetuo Socorro</option>
-              </select>
-            </div>
-            <div class="input-field col s12">
-              <textarea id="descripcion" class="materialize-textarea"></textarea>
-              <label for="descripcion">Mensaje</label>
-            </div>
-            <div class="button-form">
-              <button class="btn waves-effect waves-light" type="button" name="action">Enviar
-                <i class="material-icons right">send</i>
-              </button>
-            </div>
-          </form>
-        </div>
-    </section>
+    </div>
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Lorem ipsum dolor</h2>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A saepe eligendi, laborum, sequi cum voluptate commodi quis ratione error, autem eius voluptatibus pariatur dolorum? Omnis quisquam harum ex architecto error?</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
 
 
-    <footer class="page-footer red darken-1">
-      <div>
-        <h5 class="white-text">Redes Sociales</h5>
-      </div>
-      <div>
-        <h5 class="white-text">Links</h5>
-        <ul>
-          <li><a class="grey-text text-lighten-3" href="#!">Facebook Colegio</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Facebook Escuela</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Correo Escuela</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Correo Colegio</a></li>
-        </ul>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-        © 2021 William Acosta
-        </div>
-      </div>
-    </footer>
+    <hr class="featurette-divider">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Lorem ipsum </h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cupiditate consequatur non omnis natus facilis magni cumque inventore! Reiciendis corporis esse at doloribus magni autem alias consequuntur veniam dolores consectetur?</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Lorem ipsum dolor</h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veniam iure totam adipisci nemo accusamus velit earum, natus laboriosam asperiores inventore, vel deserunt aspernatur dignissimos animi dolor minima! Suscipit, illo.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+  </main>
+  <footer class="py-3 my-4">
+    <p class="text-center text-muted">&copy; 2021 William Acosta +595 984 450319</p>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/funciones.js">
-       
-    </script>
-</body>
+    <script src="js/funciones.js"></script>
+  </body>
 </html>
+
+
