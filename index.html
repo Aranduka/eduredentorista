@@ -1,97 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles_mobile.css">
-    <link rel="stylesheet" href="styles/style_medium.css" media="screen and (min-width: 800)">
-    <title>EduRedentoristaPJC</title>
-</head>
-<body>
-    <header class="cabecera">
-        <figure>
-            <img src="#" alt="">
-        </figure>
-        <h1 class="titulo-cabecera">Educacion Redentorista</h1>
-        <nav class="navegador-cabecera">
-            <ul class="lista-navegador">
-                <li class="item-lista-navegador">Noticias</li>
-                <li class="item-lista-navegador">Nuestras instituciones</li>
-                <li class="item-lista-navegador">Contactos</li>
+    <title>Educacion Redentorista</title>
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark nav-fondo" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Educacion Redentorista</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Instituciones</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                  <li><a class="dropdown-item" href="public/rosenstiel.html">Colegio Rosenstiel</a></li>
+                  <li><a class="dropdown-item" href="public/nsps.html">Escuela Perpetuo Socorro</a></li>
+                </ul>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
+   <main>
+    <div class="px-4 py-5 my-5 text-center">
+      <img class="d-block mx-auto mb-4" src="images/Logoredentorista.png" alt="logo_redentorista" width="300" height="250">
+      <h1 class="display-5 fw-bold">Nosotros</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsum sapiente voluptates laudantium odit architecto quas voluptatum eius minima accusamus enim facere aliquid deserunt, quo eveniet porro reiciendis nihil iure.</p>
+      </div>
+    </div>
+    <div class="container">
 
-    <main>
-        <!--Imagenes de propaganda con corto texto-->
-        <section class="content-info">
-
-                <figure>
-                    <img class="imagen-main" src="images/Colegio Rosenstiel/Propaganda Rosenstiel 1.png" alt="">
-                </figure>
-                <!--Zona de texto-->
-                <div class="info-main">
-                    <h3 class="cabecera-info-main">Lorem ipsum dolor.</h3>
-                    <p class="texto-info-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid quod commodi libero quibusdam incidunt doloremque ratione veniam odio dicta tempora nesciunt cum nostrum aliquam maxime magnam, a quas illum.</p>
-                </div>
-
-        </section>
-
-    </main>
-    <!--Contendra la mision y vision de la pagina-->
-    <article id="vision-mision">
-
-        <section class="content-mision">
-            <div class="content-mision-titulo">
-                <h4>Nuestra mision</h4>
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Nuestras Instituciones</h1>
+        <p class="fs-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum perferendis harum reprehenderit laudantium ex error exercitationem neque, vitae animi! Eius, ratione magnam et ab assumenda ipsa ex enim aliquam natus?</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Escuela Parroquial Nuestra Señora del Perpetuo Socorro</h4>
             </div>
-            <div class="content-mision-cuerpo">
-                <p class="cuerpo-mision">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, repellat tempore consequuntur voluptate architecto blanditiis ipsa ea placeat commodi odio veniam, dolor corporis consectetur alias eaque. Quam blanditiis omnis dolorem.
-                </p>
+            <div class="card-body">
+              <img src="images/EscuelaPerpetuoSocorro/EscudoEscuelaPerpetuoSocorro.jpg" alt="Escudo_nsps">
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="public/nsps.html">Ver más...</a></button>
             </div>
-        </section>
-
-        <section class="content-vision">
-            <div class="content-vision-titulo">
-                <h4>Nuestra vision</h4>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Colegio Parroquial Rosenstiel</h4>
             </div>
-            <div class="content-vision-cuerpo">
-                <p class="cuerpo-vision">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, repellat tempore consequuntur voluptate architecto blanditiis ipsa ea placeat commodi odio veniam, dolor corporis consectetur alias eaque. Quam blanditiis omnis dolorem.
-                </p>
+            <div class="card-body">
+              <img src="images/ColegioRosenstiel/EscudoRosenstiel.jpg" alt="Escudo_rosenstiel">
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="public/nsps.html">Ver más...</a></button>
             </div>
-        </section>
+          </div>
+        </div>
+    </div>
+    <hr class="featurette-divider">
 
-    <!--Contendra las instituciones educativas-->
-    </article id="instituciones">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Lorem ipsum dolor</h2>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A saepe eligendi, laborum, sequi cum voluptate commodi quis ratione error, autem eius voluptatibus pariatur dolorum? Omnis quisquam harum ex architecto error?</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
 
-        <section class="content-nsps">
-            
-        </section>
-        <section class="content-rosenstiel">
+      </div>
+    </div>
 
-        </section>
 
-    <!--Contactos-->
-    <article id="contactos">
+    <hr class="featurette-divider">
 
-        <section class="contend-contactos">
-        
-        </section>
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Lorem ipsum </h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cupiditate consequatur non omnis natus facilis magni cumque inventore! Reiciendis corporis esse at doloribus magni autem alias consequuntur veniam dolores consectetur?</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
 
-    </article>
+      </div>
+    </div>
 
-    <footer>
+    <hr class="featurette-divider">
 
-        <section class="content-redes">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Lorem ipsum dolor</h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veniam iure totam adipisci nemo accusamus velit earum, natus laboriosam asperiores inventore, vel deserunt aspernatur dignissimos animi dolor minima! Suscipit, illo.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
 
-        </section>
-        <section class="content-creditos">
+      </div>
+    </div>
 
-        </section>
+    <hr class="featurette-divider">
 
-    </footer>
-</body>
+  </main>
+  <footer class="py-3 my-4">
+    <p class="text-center text-muted">&copy; 2021 William Acosta +595 984 450319</p>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/funciones.js"></script>
+  </body>
 </html>
+
+

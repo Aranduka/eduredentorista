@@ -1,124 +1,17 @@
-/*Zona De generalidades */
-* {
-
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    
+.nav-fondo{
+    background-color: rgb(100, 21, 21);
 }
 
-html{
-    font-size: 62.5px;
-}
-
-/*Las anclas no tienen subrayado */
-a{
-    text-decoration: none;
-}
-
-/*La cabecera contendra 
-    - Un logo 
-    - El nav
-    - Un titulo
-*/
-.cabecera {
-    background-color: #6a040f;
-    display: flex;
-    justify-content: center;
-}
-
-/*
-    Titulo principal de la pagina
-*/
-.titulo-cabecera {
-    color: white;
-    text-align:  center;
-    font-size: 0.7rem;
-}
-
-/*
-    Navegador contiene 3 anclas 
-*/
-nav{
-    display: none;
-}
-
-/*
-    Para cualquier imagen que sera insertada en la pagina
-*/
-main section figure {
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-}
-
-/*
-    Todas las imagenes tendran las mismas dimensiones y caracteristicas
-*/
-.imagen-main{
-
-    height: 350px;
+.card-body > img{
     width: 100%;
-    border-radius: 10px;
-}
-/*
-    No se muestran en mobile
-*/
-.cabecera-info-main{
-
-   display: none;
-
-}
-/*
-    No se muestran en mobile
-*/
-.texto-info-main{
-
-    display: none;
-
-}
-/*
-    Mision y Vision Estilos
-*/
-.content-mision, .content-vision{
-    display: flex;
-    flex-direction: column;
-    font-size: 0.5rem;
-    margin-top: 10px;
-    padding: 15px;
-    border-top: 1px solid #9d0208;
-}
-.content-mision-titulo, .content-vision-titulo{
-    background-color: #6a040f;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
+    height: auto;
+    padding-bottom: 25px;
 }
 
-.content-vision-cuerpo, .content-mision-cuerpo{
-    text-align: left;
-    font-size: 0.3rem;
-}
+/* .navbar-nav .dropdown-menu{
+    
+} */
 
-section div h4, .cuerpo-vision, .cuerpo-mision {
-    padding: 20px;
-}
-
-/*
-
-    Representa la paleta de colores que se usaran en esta pagina
-
-*/
-.paleta{
-    color:#6a040f;
-    color:#9d0208;
-    color:#faa307;
-    color:#dc2f02;
-}
-
-/*
-    footer dividido en 2 secciones una redes otra creditos
-*/
-footer{
-    display: flex;
+.relleno{
+    padding: 14px 0;
 }
